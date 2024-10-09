@@ -1,0 +1,12 @@
+roti$roti$8
+roti$1
+roti
+roti$roti
+roti$roti$1
+roti$roti$2
+roti$2
+roti$roti$3
+roti$roti$4
+roti$roti$5
+roti$roti$6
+roti$roti$7
