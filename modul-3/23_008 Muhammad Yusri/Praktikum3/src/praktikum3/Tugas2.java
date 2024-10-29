@@ -105,6 +105,7 @@ public class Tugas2 extends javax.swing.JFrame {
         Thasil = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new java.awt.BorderLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setAlignmentX(0.0F);
@@ -138,11 +139,10 @@ public class Tugas2 extends javax.swing.JFrame {
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         injanuari.setText("Januari");
-        injanuari.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel3.add(injanuari, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 90, 51));
 
         infebruari.setText("Februari");
-        infebruari.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        infebruari.setBorder(javax.swing.BorderFactory.createLineBorder(null));
         infebruari.setBorderPaintedFlat(true);
         jPanel3.add(infebruari, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 0, 100, 51));
 
@@ -190,6 +190,12 @@ public class Tugas2 extends javax.swing.JFrame {
             }
         });
         jPanel3.add(indesember, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 153, 100, 51));
+
+        jumlahspp.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jumlahsppActionPerformed(evt);
+            }
+        });
 
         jLabel6.setText("Masukkan Jumlah SPP :");
 
@@ -817,6 +823,10 @@ tabel.addRow(rowData);
     private void FnamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FnamaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_FnamaActionPerformed
+
+    private void jumlahsppActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jumlahsppActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jumlahsppActionPerformed
 
     /**
      * @param args the command line arguments
